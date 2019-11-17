@@ -7,17 +7,17 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `Marcus Lyons: Open Sourceror`,
+    author: `Marcus Lyons`,
+    description: `My personal site, a place for random rants, musings, and education`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/marcuslyons_`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/malyons`,
       },
     ],
   },
