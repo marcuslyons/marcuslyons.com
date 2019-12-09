@@ -2,14 +2,37 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
-      options: {},
+      options: {
+        basePath: `/blog`,
+      },
     },
+    {
+      resolve: `gatsby-theme-notes`,
+      options: {
+        basePath: `/notes`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+        omitGoogleFont: `true`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`roboto`, `roboto slab`],
+        display: "swap",
+      },
+    },
+    `gatsby-plugin-remove-trailing-slashes`,
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `Marcus Lyons: Open Sourceror`,
+    title: `home`,
     author: `Marcus Lyons`,
-    description: `My personal site, a place for random rants, musings, and education`,
+    description: `The musings, rants, and learning of a developer trying to make sense of the insanity in tech.`,
     social: [
       {
         name: `twitter`,
@@ -17,7 +40,11 @@ module.exports = {
       },
       {
         name: `github`,
-        url: `https://github.com/malyons`,
+        url: `https://github.com/marcuslyons`,
+      },
+      {
+        name: `twitch`,
+        url: `https://twitch.tv/marcuslyons_`,
       },
     ],
   },
