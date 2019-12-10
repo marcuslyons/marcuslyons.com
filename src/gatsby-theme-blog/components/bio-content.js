@@ -7,7 +7,6 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    <Styled.a href='https://marcuslyons.dev/'>Marcus Lyons</Styled.a>
-    <Styled.p>Open Sourceror</Styled.p>
+    <Styled.a href="https://marcuslyons.com/">Marcus Lyons</Styled.a>
   </Fragment>
 )
