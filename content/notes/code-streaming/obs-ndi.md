@@ -1,6 +1,6 @@
 OBS has an NDI plugin available that will let you set up 2 PC (OS agnostic) streaming. Allowing you to use one machine to game/code on and another to stream with. Which is awesome. Kind of easy to set up actually too.
 
-## To set up:
+## **To set up:**
 
 1. Install OBS on both machines
 2. Install the NDI plugin on both machines
@@ -12,13 +12,13 @@ OBS has an NDI plugin available that will let you set up 2 PC (OS agnostic) stre
    1. Set up a scene and select NDI Source as the source
    2. Start streaming
 
-## Notes:
+## **Notes:**
 
 - Doing this over WiFi **isn’t** recommended
 - On Windows the network needs to be set to _Private_
 - Going from Mac to Windows, and vice versa is pretty easy to set up
 
-## Resources:
+## **Resources:**
 
 [OBS-NDI](https://github.com/Palakis/obs-ndi/releases)
 [OBS NDI FAQ/Troubleshooting](https://www.youtube.com/watch?v=N3KlbU5AYP0)
