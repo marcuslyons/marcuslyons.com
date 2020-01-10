@@ -11,42 +11,35 @@ export default ({ data }) => {
       <main
         style={{
           boxSizing: "border-box",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
+          display: "grid",
           alignItems: "center",
+          justifyContent: "center",
+          gridTemplateRows: "",
+          gridRowGap: "26px",
         }}
       >
-        <div
-          style={{
-            marginBottom: "26px",
-          }}
-        >
+        <div style={{ display: "flex", width: "100%" }}>
           <Img
-            fixed={data.file.childImageSharp.fixed}
+            fluid={data.file.childImageSharp.fluid}
+            style={{ width: "100%" }}
             alt={"Illustration of a person walking toward a browser of code"}
           />
         </div>
         <div
           style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            alignItems: "start",
+            display: "grid",
+            justifyContent: "center",
+            alignItems: "center",
+            maxWidth: "360px",
+            // gridRowGap: "15px",
           }}
         >
-          <h1
-            style={{
-              maxWidth: "400px",
-              marginBottom: "16px",
-            }}
-          >
+          <h1 style={{}}>
             Hi I’m Marcus.
             <br /> A Developer focused on React, a11y, and testing.
           </h1>
           <p
             style={{
-              maxWidth: "400px",
               margin: "0",
             }}
           >
@@ -55,7 +48,6 @@ export default ({ data }) => {
           </p>
           <p
             style={{
-              maxWidth: "400px",
               margin: "0",
             }}
           >
@@ -72,8 +64,8 @@ export const query = graphql`
   query {
     file(relativePath: { eq: "hero-image.png" }) {
       childImageSharp {
-        fixed(quality: 100) {
-          ...GatsbyImageSharpFixed
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

@@ -7,12 +7,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-theme-notes`,
-      options: {
-        basePath: `/notes`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
@@ -26,7 +20,13 @@ module.exports = {
         display: "swap",
       },
     },
-    `gatsby-plugin-remove-trailing-slashes`,
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 1380,
+        linkImagesToOriginal: false,
+      },
+    },
   ],
   // Customize your site metadata:
   siteMetadata: {
