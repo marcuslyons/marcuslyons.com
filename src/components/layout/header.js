@@ -66,14 +66,14 @@ const Header = () => (
         <li
           style={{ fontSize: "20px", fontWeight: "bold", marginRight: "32px" }}
         >
-          <Link
+          {/* <Link
             to="/notes"
             style={{
               textDecoration: "none",
             }}
           >
             notes
-          </Link>
+          </Link> */}
         </li>
       </ul>
     </nav>
