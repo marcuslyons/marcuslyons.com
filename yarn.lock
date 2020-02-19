@@ -1209,10 +1209,10 @@
   dependencies:
     core-js "^2.5.7"
 
-"@jlengstorf/get-share-image@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@jlengstorf/get-share-image/-/get-share-image-0.5.0.tgz#0dbd6660a7b8bdba9af6b8961fb81c9b54793e1d"
-  integrity sha512-OWVBj5vGYUh7g+AziDhucSjNZ4XNOUNGB/pd0PlwYVkaykJnxnB+Djp2EzOVtDQwcxE5v9p1lCiAyBeCfzir7w==
+"@jlengstorf/get-share-image@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@jlengstorf/get-share-image/-/get-share-image-0.6.0.tgz#65faba0eeef22feb300c58780b6d021cc7066606"
+  integrity sha512-BnJAPloz0xXE2iz6Si0mg1Bvse597/C9ks4vBtdJqEYjcL9iXLNNLXafAFeVe/nYJ5M400/rENeeoZD32oI5TQ==
 
 "@mdx-js/mdx@^1.5.1":
   version "1.5.1"
