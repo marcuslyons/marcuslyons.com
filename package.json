@@ -13,7 +13,7 @@
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-theme-blog": "^1.2.47",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "gatsby-plugin-typography": "^2.5.2",
