@@ -2354,10 +2354,10 @@
   dependencies:
     core-js "^2.5.7"
 
-"@jlengstorf/get-share-image@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@jlengstorf/get-share-image/-/get-share-image-0.6.0.tgz#65faba0eeef22feb300c58780b6d021cc7066606"
-  integrity sha512-BnJAPloz0xXE2iz6Si0mg1Bvse597/C9ks4vBtdJqEYjcL9iXLNNLXafAFeVe/nYJ5M400/rENeeoZD32oI5TQ==
+"@jlengstorf/get-share-image@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@jlengstorf/get-share-image/-/get-share-image-0.7.1.tgz#bdef9c633ce6dbf8c300fc82d18befba615a0d5c"
+  integrity sha512-eXATsFDhdRYMqAcrBNW4SpZttAxlA9S/9IAvyUt7UTxxlwNXKo/tqrOxRoOSrA79l25QQ0oDqP/9BcdvvGmYxQ==
 
 "@kwsites/exec-p@^0.4.0":
   version "0.4.0"
