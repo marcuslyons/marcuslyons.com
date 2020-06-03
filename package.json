@@ -11,7 +11,7 @@
     "@jlengstorf/get-share-image": "^0.7.1",
     "gatsby": "^2.22.12",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-theme-blog": "^1.6.28",
+    "gatsby-theme-blog": "^1.6.34",
     "react": "^16.13.0",
     "react-dom": "^16.13.1"
   },
