@@ -8,7 +8,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@jlengstorf/get-share-image": "^0.7.1",
+    "@jlengstorf/get-share-image": "^0.8.0",
     "gatsby": "^2.22.12",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-theme-blog": "^1.6.28",
