@@ -1,0 +1,51 @@
+---
+slug: gatsby-recipes
+title: Gatsby Recipes
+excerpt: For fun and mischief.
+date: 2021-04-01
+published: true
+keywords: [gatsby, automation, cli]
+---
+
+> Gatsby Recipes, a new tool to automate common site building tasks. Kyle
+> Matthews -
+> [Recipes Announcement Post](https://www.gatsbyjs.org/blog/2020-04-15-announcing-gatsby-recipes/)
+
+## What are they?
+
+A recipe is a set of instructions that describes how to prepare or make
+something. Gatsby Recipes are no different, they're essentially a set of
+instructions to tell the Gatsby CLI what to install or create.
+
+Using the Gatsby CLI we can now leverage some of the concepts from
+infrastructure as code in our frontend applications. This tool isn't limited to
+_just_ Gatsby despite what the name implies. This can be run on any UI
+application that utilizes a `package.json` and NPM. (caveats in that it uses
+Yarn by default but ultimately it's not that big of a deal)
+
+The official method of using Recipes is to use the following command:
+`gatsby recipes` will get us a list of the Official Gatsby Recipes that ship
+with the CLI. However, we can pass a custom Recipe to the CLI instead. This can
+be either a URL, such as a Gist, or a local path to the MDX file.
+
+## What can they do?
+
+We can automate common site building tasks with Gatsby Recipes.
+
+Such as:
+
+- Adding scripts to our `package.json`
+- Adding dependencies to our project
+- Adding Files to our project
+- Updating our Gatsby Config (if we're using them on a Gatsby site)
+
+## Are they only for Gatsby Apps?
+
+Despite what the name implies, you _can_ use Recipes on any project with a
+package.json. Adding an NPM script, or dependency, can be done on a variety of
+projects, but adding to a gatsby-config file obviously wouldn't need to be done.
+Adding files, templates, etc are also possible.
+
+The one gotcha I've found in experimenting with this has been the Gatsby CLI
+uses yarn with recipes by default. So if you're not using Yarn you'll need to
+delete the yarn.lock file.
