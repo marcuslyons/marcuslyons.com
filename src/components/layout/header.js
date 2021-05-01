@@ -55,12 +55,12 @@ const Header = () => (
           }}
         >
           <Link
-            to="/blog"
+            to="/writing"
             style={{
               textDecoration: "none",
             }}
           >
-            blog
+            writing
           </Link>
         </li>
         <li
