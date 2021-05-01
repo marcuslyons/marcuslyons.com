@@ -40,7 +40,7 @@ const Post = ({
           color: `inherit`,
           boxShadow: `none`,
         }}
-        to={`/blog`}
+        to={`/writing`}
       >
         back
       </Styled.a>

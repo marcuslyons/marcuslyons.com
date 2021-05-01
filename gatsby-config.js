@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-blog`,
       options: {
-        basePath: `/blog`,
+        basePath: `/writing`,
       },
     },
     {
@@ -32,7 +32,7 @@ module.exports = {
   siteMetadata: {
     title: `home`,
     author: `Marcus Lyons`,
-    description: `The musings, rants, and learning of a developer trying to make sense of the insanity in tech.`,
+    description: `The musings, rants, and learning of a developer trying to make sense of chaos.`,
     social: [
       {
         name: `twitter`,
