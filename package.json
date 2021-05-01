@@ -5,7 +5,9 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "prebuild": "rm -rf public/",
+    "postbuild": "cp _redirects public/"
   },
   "dependencies": {
     "@jlengstorf/get-share-image": "^0.8.0",
