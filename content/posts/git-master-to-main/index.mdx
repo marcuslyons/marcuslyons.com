@@ -1,0 +1,57 @@
+---
+slug: git-master-to-main
+title: How to Rename a Git branch From `master` to `main`
+excerpt: A quick guide on how to migrate a repository.
+date: 2021-05-01
+published: true
+keywords: [cli, github, git]
+---
+
+## Local
+
+To change the local repository you need to run:
+
+`git branch -m master main`
+
+To make sure the branch has been renamed run `git status` and you should see the
+following:
+
+```shell
+$ git status
+On branch main
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+```
+
+<br />
+
+## Remote
+
+First you need to push the newly created branch to the remote
+
+> Make sure you're on the main branch before running this
+> `git push -u origin main`
+
+Then you can delete the master branch
+
+`git push origin --delete master`
+
+This might not work, especially in GitHub where the default branch used to be
+`master`. If that's the case there's a bit more that needs to happen in GitHub
+before the `master` branch can be deleted.
+
+## Github default branch and protection considerations
+
+In GitHub, the default branch used to be set to `master` when the repository was
+created through the UI. In order to be able to delete the `master` branch,
+you'll need to change the default to the newly created `main` branch.
+
+To change the default, you'll need to navigate to `Branches` in the repository
+settings.
+
+![GitHub Repository Branch Settings](./images/github-branch-settings.png)
+
+Once the default branch has been switched, the `master` branch can be deleted.
+Either by running `git push origin --delete master` locally again, or through
+the GitHub UI.
