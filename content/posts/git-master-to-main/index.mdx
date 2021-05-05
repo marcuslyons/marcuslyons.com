@@ -11,7 +11,9 @@ keywords: [cli, github, git]
 
 To change the local repository you need to run:
 
-`git branch -m master main`
+```shell
+git branch -m master main
+```
 
 To make sure the branch has been renamed run `git status` and you should see the
 following:
@@ -31,11 +33,16 @@ nothing to commit, working tree clean
 First you need to push the newly created branch to the remote
 
 > Make sure you're on the main branch before running this
-> `git push -u origin main`
+
+```shell
+git push -u origin main
+```
 
 Then you can delete the master branch
 
-`git push origin --delete master`
+```shell
+git push origin --delete master
+```
 
 This might not work, especially in GitHub where the default branch used to be
 `master`. If that's the case there's a bit more that needs to happen in GitHub
@@ -53,5 +60,11 @@ settings.
 ![GitHub Repository Branch Settings](./images/github-branch-settings.png)
 
 Once the default branch has been switched, the `master` branch can be deleted.
-Either by running `git push origin --delete master` locally again, or through
-the GitHub UI.
+
+Either by running
+
+```shell
+git push origin --delete master
+```
+
+or through the GitHub UI.
