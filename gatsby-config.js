@@ -30,16 +30,23 @@ module.exports = {
                     site.siteMetadata.siteUrl +
                     "/writing/" +
                     edge.node.frontmatter.slug,
+                  custom_elements: [
+                    {
+                      content: [{ _attr: { type: "html" } }, edge.node.html],
+                    },
+                  ],
                 })
               })
             },
             query: `
             {
               allMdx(
+                limit: 10,
                 sort: { order: DESC, fields: [frontmatter___date] },
               ) {
                 edges {
                   node {
+                    html
                     frontmatter {
                       slug
                       title
