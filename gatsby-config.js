@@ -8,7 +8,6 @@ module.exports = {
           site {
             siteMetadata {
               title
-              description
               siteUrl
               site_url: siteUrl
             }
@@ -20,7 +19,6 @@ module.exports = {
             serialize: ({ query: { site, allMdx } }) => {
               return allMdx.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.frontmatter.excerpt,
                   date: edge.node.frontmatter.date,
                   url:
                     site.siteMetadata.siteUrl +
@@ -50,7 +48,6 @@ module.exports = {
                     frontmatter {
                       slug
                       title
-                      excerpt
                       date
                     }
                   }
