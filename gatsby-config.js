@@ -30,7 +30,10 @@ module.exports = {
                     edge.node.frontmatter.slug,
                   custom_elements: [
                     {
-                      content: [{ _attr: { type: "html" } }, edge.node.html],
+                      "content:encoded": [
+                        { _attr: { type: "html" } },
+                        edge.node.html,
+                      ],
                     },
                   ],
                 })
