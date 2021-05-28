@@ -19,9 +19,8 @@ module.exports = {
           {
             serialize: ({ query: { site, allMdx } }) => {
               return allMdx.edges.map((edge) => {
-                // console.log(`${edge.node.body}`)
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
+                  description: edge.node.frontmatter.excerpt,
                   date: edge.node.frontmatter.date,
                   url:
                     site.siteMetadata.siteUrl +
@@ -103,6 +102,7 @@ module.exports = {
     title: `home`,
     author: `Marcus Lyons`,
     description: `The musings, rants, and learning of a developer trying to make sense of chaos.`,
+    siteUrl: `https://marcuslyons.com`,
     social: [
       {
         name: `twitter`,
