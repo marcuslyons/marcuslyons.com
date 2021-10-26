@@ -1,0 +1,15 @@
+---
+slug: extract-public-key-from-pem-file
+title: Extract Public Key from .pem File
+excerpt: A reference.
+date: "2021-04-05"
+published: true
+keywords: [ssh, public key, pem, file]
+---
+
+> 📝 Note: if your permissions are too open you will need to fix them chmod 400
+> PrivateFile.pem
+
+Linux: `ssh-keygen -f PrivateFile.pem -y > publicFile.pub`
+
+macOs: `ssh-keygen -f PrivateFile.pem -y | pbcopy`
