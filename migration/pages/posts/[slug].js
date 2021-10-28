@@ -1,14 +1,19 @@
 import React from "react"
 import { getMDXComponent } from "mdx-bundler/client"
 import { getAllPosts, getSinglePost } from "../../utils/mdx"
+import { Post as PostLayout } from "../../components/layouts/post"
 
 const Post = ({ code, frontmatter }) => {
   const Component = React.useMemo(() => getMDXComponent(code), [code])
   return (
-    <div className="wrapper">
-      <h1>{frontmatter.title}</h1>
-      <Component />
-    </div>
+    <>
+      <PostLayout>
+        <article>
+          <h2>{frontmatter.title}</h2>
+          <Component />
+        </article>
+      </PostLayout>
+    </>
   )
 }
 
