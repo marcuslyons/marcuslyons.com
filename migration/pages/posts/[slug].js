@@ -1,7 +1,12 @@
 import React from "react"
+import Image from "next/image"
 import { getMDXComponent } from "mdx-bundler/client"
 import { getAllPosts, getSinglePost } from "../../utils/mdx"
 import { Post as PostLayout } from "../../components/layouts/post"
+
+const components = {
+  img: (props) => <Image {...props} height={450} width={650} loading="lazy" />,
+}
 
 const Post = ({ code, frontmatter }) => {
   const Component = React.useMemo(() => getMDXComponent(code), [code])
@@ -10,7 +15,7 @@ const Post = ({ code, frontmatter }) => {
       <PostLayout>
         <article>
           <h2>{frontmatter.title}</h2>
-          <Component />
+          <Component components={components} />
         </article>
       </PostLayout>
     </>

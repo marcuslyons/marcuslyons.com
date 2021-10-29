@@ -1,8 +1,10 @@
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
+import Image from "next/image"
 import { bundleMDX } from "mdx-bundler"
 import { remarkMdxImages } from "remark-mdx-images"
+import imageSize from "rehype-img-size"
 
 export const POSTS_PATH = path.join(process.cwd(), "content/posts")
 export const ASSETS_PATH = path.join(process.cwd(), "content/assets")
@@ -45,9 +47,11 @@ export const getSinglePost = async (slug) => {
 
   const { code, frontmatter } = await bundleMDX(source, {
     cwd: POSTS_PATH,
+    globals: { Image },
     xdmOptions: (options) => ({
       ...options,
       remarkPlugins: [...(options.remarkPlugins ?? []), remarkMdxImages],
+      rehypePlugins: [...(options.rehypePlugins ?? []), imageSize],
     }),
     esbuildOptions: (options) => ({
       ...options,
