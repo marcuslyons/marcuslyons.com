@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
         <script
-          src="https://cdn.usefathom.com/script.js"
+          src="https://actor-save-tonight.marcuslyons.com/script.js"
           data-spa="auto"
           data-site="KTWCCGGW"
           defer
