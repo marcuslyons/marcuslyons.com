@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build"
+  command = "yarn build"
   publish = "build"
 
-[context.branch-deploy]
-  NPM_FLAGS="--prefix=/dev/null"
+# [context.branch-deploy]
+#   NPM_FLAGS="--prefix=/dev/null"
 
 # [[redirects]]
 #   from = "/blog"
