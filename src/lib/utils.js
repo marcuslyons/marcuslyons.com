@@ -80,6 +80,27 @@ export const getPosts = async (postsContent, body = false) => {
   }
 }
 
+/**
+ * Returns an object of post metadata and content
+ * @param {{slug: string;}}
+ */
+export const getPost = async function (content, body = true) {
+  const transformedContent = await compile(content)
+
+  const { title, date } = transformedContent.data.fm
+
+  let result = {
+    title,
+    date,
+  }
+
+  if (body) {
+    result = { ...result, body: transformedContent }
+  }
+
+  return result
+}
+
 export const isActiveUrl = (path, url) => {
   return path === url
 }
