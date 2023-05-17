@@ -1,3 +1,3 @@
-# marcuslyons.dev
+# marcuslyons.com
 
-My personal site, built using Gatsby Blog Theme.
+My personal site, _now_ built using SvelteKit.
