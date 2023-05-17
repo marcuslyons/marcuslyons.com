@@ -61,6 +61,12 @@ public
 # Mac files
 .DS_Store
 
+.env
+.svelte-kit
+.pnpm-debug.log
+.netlify
+.vscode
+
 # Yarn
 yarn-error.log
 .pnp/
