@@ -79,7 +79,7 @@ pre {
 article img {
 	display: block;
 	margin: 0 auto;
-	max-width: 75vw;
+	max-width: 100%;
 }
 
 .text-column {
