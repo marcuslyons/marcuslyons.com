@@ -5,7 +5,7 @@
 
 <h1 class="visually-hidden">Uses</h1>
 
-<article>
+<article class="text-column">
 	<div>
 		<h2>Uses</h2>
 		<p>Some of the things I use on a daily basis.</p>

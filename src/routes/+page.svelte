@@ -16,7 +16,7 @@
 
 <SEO {...config} />
 
-<section>
+<section class="text-column">
 	<ul class="links">
 		{#each data.posts as post}
 			<li>
@@ -46,6 +46,14 @@
 	article {
 		margin: 1rem;
 		padding: 0.5rem;
+	}
+
+	a {
+		&:hover {
+			text-decoration: underline;
+			text-decoration-style: wavy;
+			text-underline-offset: .275rem;
+		}
 	}
 
 	.title {

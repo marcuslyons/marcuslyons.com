@@ -64,7 +64,7 @@
 		padding: 0 0.5rem;
 		color: var(--color-text);
 		font-weight: 700;
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 		text-transform: lowercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
@@ -73,5 +73,8 @@
 
 	a:hover {
 		color: var(--color-theme-1);
+		text-decoration: underline;
+		text-decoration-style: wavy;
+		text-underline-offset: .275rem;
 	}
 </style>
