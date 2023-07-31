@@ -27,8 +27,8 @@ dependencies:
     specifier: ^3.0.1
     version: 3.0.1
   remixicon:
-    specifier: ^3.2.0
-    version: 3.2.0
+    specifier: ^3.5.0
+    version: 3.5.0
   sass:
     specifier: ^1.62.1
     version: 1.62.1
@@ -1651,8 +1651,8 @@ packages:
       unist-util-visit: 4.1.2
     dev: false
 
-  /remixicon@3.2.0:
-    resolution: {integrity: sha512-ADh4EQE4UGtm9GHqD+TIfVp1b0zeWso6efaMAnejdB6/7Z1W02Ka5K8khQaz+LNgIqC6dSZxCvXMWNalYWHiNQ==}
+  /remixicon@3.5.0:
+    resolution: {integrity: sha512-wNzWGKf4frb3tEmgvP5shry0n1OdTjjEk9RHLuRuAhfA50bvEdpKH1XWNUYrHUSjAQQkkdyIm+lf4mOuysIKTQ==}
     dev: false
 
   /resolve-from@4.0.0:
