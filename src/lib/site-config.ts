@@ -20,7 +20,10 @@ const pages = {
 };
 
 const config = {
-	...pages
+	...pages,
+	name: `Marcus Lyons`,
+	site: `https://marcuslyons.com`,
+	description: `The digital garden of Marcus Lyons: software engineer and maker.`
 };
 
 export default config;
