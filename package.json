@@ -45,6 +45,6 @@
 		"remark-unwrap-images": "^3.0.1",
 		"remark-preview": "^1.0.2",
 		"remixicon": "^3.5.0",
-		"sass": "^1.62.1"
+		"sass": "^1.69.0"
 	}
 }
