@@ -1,25 +1,25 @@
 <script>
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 </script>
 
 <header>
 	<nav>
-		<div />
+		<div></div>
 		<ul>
-			{#if $page.url.pathname !== '/'}
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+			{#if page.url.pathname !== '/'}
+			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
 			{/if}
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+			<li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/uses') ? 'page' : undefined}>
+			<li aria-current={page.url.pathname.startsWith('/uses') ? 'page' : undefined}>
 				<a href="/uses">uses</a>
 			</li>
 		</ul>
 	</nav>
-	<div />
+	<div></div>
 </header>
 
 <style>

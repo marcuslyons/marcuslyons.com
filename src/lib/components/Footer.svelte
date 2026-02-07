@@ -10,22 +10,22 @@
 	<ul>
 		<li>
 			<a href="https://github.com/marcuslyons" target="_blank" rel="nofollow">
-				<i class="ri-github-fill ri-xl" />
+				<i class="ri-github-fill ri-xl"></i>
 			</a>
 		</li>
 		<li>
 			<a href="https://twitter.com/marcuslyons_" target="_blank" rel="nofollow">
-				<i class="ri-twitter-fill ri-xl" />
+				<i class="ri-twitter-fill ri-xl"></i>
 			</a>
 		</li>
 		<li>
 			<a href="https://linkedin.com/in/marcuslyons" target="_blank" rel="nofollow">
-				<i class="ri-linkedin-fill ri-xl" />
+				<i class="ri-linkedin-fill ri-xl"></i>
 			</a>
 		</li>
 		<li>
 			<a href="https://twitch.tv/marcuslyons_" target="_blank" rel="nofollow">
-				<i class="ri-twitch-fill ri-xl" />
+				<i class="ri-twitch-fill ri-xl"></i>
 			</a>
 		</li>
 	</ul>
