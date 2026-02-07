@@ -1,21 +1,25 @@
-import config from '$lib/site-config';
-import { posts } from '$lib/server/posts';
+import config from "$lib/site-config"
+import { posts } from "$lib/server/posts"
 
-const {name, site, description} = config;
+const { name, site, description } = config
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
   const headers = {
-    'Cache-Control': 'max-age=0, s-maxage=3600',
-    'Content-Type': 'application/xml',
+    "Cache-Control": "max-age=0, s-maxage=3600",
+    "Content-Type": "application/xml",
   }
-// console.log({posts});
-  const generateXML = (content: typeof posts) => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+  // console.log({posts});
+  const generateXML = (
+    content: typeof posts
+  ) => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>${name}</title>
     <link>${site}</link>
     <description>${description}</description>
-    ${content.map(post => `
+    ${content
+      .map(
+        (post) => `
       <item>
             <title>${post.title}</title>
             <description>${post.excerpt}</description>
@@ -32,10 +36,11 @@ export async function GET() {
               </div>
             </content:encoded>
           </item>
-    `).join('')}
+    `
+      )
+      .join("")}
   </channel>
 </rss>`
-  const body = generateXML(posts);
+  const body = generateXML(posts)
   return new Response(body, { headers })
-
 }

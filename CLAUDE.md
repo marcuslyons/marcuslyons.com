@@ -1,10 +1,13 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with
+code in this repository.
 
 ## Project Overview
 
-Personal digital garden / blog built with **SvelteKit 1.x** and **Svelte 3**, deployed on **Netlify**. Uses **mdsvex** to render Markdown blog posts as Svelte components.
+Personal digital garden / blog built with **SvelteKit 1.x** and **Svelte 3**,
+deployed on **Netlify**. Uses **mdsvex** to render Markdown blog posts as Svelte
+components.
 
 ## Commands
 
@@ -49,21 +52,27 @@ keywords: [example, post]
 ---
 ```
 
-Posts are eagerly loaded via `import.meta.glob()` in `src/lib/server/posts.ts`, sorted by date (newest first), and enriched with next/previous references.
+Posts are eagerly loaded via `import.meta.glob()` in `src/lib/server/posts.ts`,
+sorted by date (newest first), and enriched with next/previous references.
 
-**mdsvex config** (`mdsvex.config.js`) adds remark/rehype plugins for: relative images, unwrapped images, emoji support, text previews (250 chars), heading slugs, heading autolinks, and external link handling (opens in new tab).
+**mdsvex config** (`mdsvex.config.js`) adds remark/rehype plugins for: relative
+images, unwrapped images, emoji support, text previews (250 chars), heading
+slugs, heading autolinks, and external link handling (opens in new tab).
 
 ### Key Files
 
 - `src/lib/server/posts.ts` — Post loading, sorting, and metadata extraction
 - `src/lib/site-config.ts` — Global site configuration
 - `src/lib/components/SEO.svelte` — Meta tags component
-- `svelte.config.js` — SvelteKit config with mdsvex preprocessor and Netlify adapter
+- `svelte.config.js` — SvelteKit config with mdsvex preprocessor and Netlify
+  adapter
 - `mdsvex.config.js` — Markdown processing pipeline configuration
 
 ### Styling
 
-Plain CSS with CSS custom properties defined in `src/routes/styles.css`. No CSS framework. Sass is available but primarily unused. Font: Fira Mono (monospace). Icons: Remixicon sprite.
+Plain CSS with CSS custom properties defined in `src/routes/styles.css`. No CSS
+framework. Sass is available but primarily unused. Font: Fira Mono (monospace).
+Icons: Remixicon sprite.
 
 ## Code Style
 

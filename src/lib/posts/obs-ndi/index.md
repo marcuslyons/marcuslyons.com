@@ -9,9 +9,7 @@ keywords: [obs, ndi, capture card, stream]
 
 ![Picture of a person typing on a keyboard](./images/person-typing.jpg)
 
-Photo by
-[Soumil Kumar](https://www.pexels.com/@soumil-kumar-4325)
-from
+Photo by [Soumil Kumar](https://www.pexels.com/@soumil-kumar-4325) from
 [Pexels](https://www.pexels.com/photo/photo-of-person-typing-on-computer-keyboard-735911/)
 
 OBS has an NDI plugin available that will let you set up 2 PC (OS agnostic)
