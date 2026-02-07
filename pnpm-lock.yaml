@@ -14,9 +14,6 @@ dependencies:
   rehype-external-links:
     specifier: ^2.1.0
     version: 2.1.0
-  rehype-sanitize:
-    specifier: ^5.0.1
-    version: 5.0.1
   rehype-slug:
     specifier: ^5.1.0
     version: 5.1.0
@@ -46,9 +43,6 @@ devDependencies:
   '@playwright/test':
     specifier: ^1.37.1
     version: 1.37.1
-  '@sveltejs/adapter-auto':
-    specifier: ^3.0.0
-    version: 3.0.0(@sveltejs/kit@2.14.0)
   '@sveltejs/adapter-netlify':
     specifier: ^4.0.0
     version: 4.0.0(@sveltejs/kit@2.14.0)
@@ -58,9 +52,6 @@ devDependencies:
   '@sveltejs/vite-plugin-svelte':
     specifier: ^4.0.0
     version: 4.0.0(svelte@5.16.0)(vite@5.4.0)
-  '@types/cookie':
-    specifier: ^0.5.1
-    version: 0.5.1
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.45.0
     version: 5.59.1(@typescript-eslint/parser@5.59.1)(eslint@8.39.0)(typescript@5.0.4)
@@ -869,15 +860,6 @@ packages:
     dev: true
     optional: true
 
-  /@sveltejs/adapter-auto@3.0.0(@sveltejs/kit@2.14.0):
-    resolution: {integrity: sha512-UNWSs/rOReBRfI/xFwSO2WYF1a7PT74SrWOHJmSNLY3Lq+zbH0uuvnlP+TmrTUBvOTkou3WJDjL6lK3n6aOUgQ==}
-    peerDependencies:
-      '@sveltejs/kit': ^2.0.0
-    dependencies:
-      '@sveltejs/kit': 2.14.0(@sveltejs/vite-plugin-svelte@4.0.0)(svelte@5.16.0)(vite@5.4.0)
-      import-meta-resolve: 4.2.0
-    dev: true
-
   /@sveltejs/adapter-netlify@4.0.0(@sveltejs/kit@2.14.0):
     resolution: {integrity: sha512-Xzc6hQoCQSYHLipr+edK3PldgrqylNT/PPAbPTKFOq8NuyxPgKg1HqRW0DyyOG/GTbHWGU8Fzuig3BBBiM8yVg==}
     peerDependencies:
@@ -949,10 +931,6 @@ packages:
       vitefu: 1.1.1(vite@5.4.0)
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@types/cookie@0.5.1:
-    resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
     dev: true
 
   /@types/cookie@0.6.0:
@@ -2469,14 +2447,6 @@ packages:
       space-separated-tokens: 2.0.2
       unified: 10.1.2
       unist-util-visit: 4.1.2
-    dev: false
-
-  /rehype-sanitize@5.0.1:
-    resolution: {integrity: sha512-da/jIOjq8eYt/1r9GN6GwxIR3gde7OZ+WV8pheu1tL8K0D9KxM2AyMh+UEfke+FfdM3PvGHeYJU0Td5OWa7L5A==}
-    dependencies:
-      '@types/hast': 2.3.4
-      hast-util-sanitize: 4.1.0
-      unified: 10.1.2
     dev: false
 
   /rehype-slug@5.1.0:

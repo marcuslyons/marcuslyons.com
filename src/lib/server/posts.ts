@@ -10,6 +10,8 @@ export interface Post {
   excerpt: string
   slug: string
   date: string
+  previewHtml: string
+  previewText: string
 }
 
 // Get all posts and add metadata

@@ -5,9 +5,10 @@ code in this repository.
 
 ## Project Overview
 
-Personal digital garden / blog built with **SvelteKit 1.x** and **Svelte 3**,
-deployed on **Netlify**. Uses **mdsvex** to render Markdown blog posts as Svelte
-components.
+Personal digital garden / blog built with **SvelteKit 2** and **Svelte 5**,
+deployed on **Netlify**. Uses **mdsvex 0.12** to render Markdown blog posts as
+Svelte components. Uses Svelte 5 runes (`$props()`, `$state()`) and `$app/state`
+for reactivity.
 
 ## Commands
 
