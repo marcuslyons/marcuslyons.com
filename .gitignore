@@ -62,6 +62,7 @@ public
 .DS_Store
 
 .env
+build/
 .svelte-kit
 .pnpm-debug.log
 .netlify

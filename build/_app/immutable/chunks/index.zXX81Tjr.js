@@ -1,6 +1,0 @@
-import{a as i,t as o}from"./disclose-version.BDaRFh6M.js";import"./legacy.G1r-cTWw.js";import{n as a}from"./runtime.D22fzDCM.js";const s={title:"Git not recognizing filename change",slug:"git-doesnt-recognize-file-name-change",excerpt:"Sometimes Git doesn't recognize case sensitive filename changes",date:"2020-04-02T00:00:00.000Z",published:!0,keywords:["git"],previewText:`Git doesn’t recognize file name changes if they are just a case-sensitive
-change.
-
-For example:`,previewHtml:"<p>Git doesn’t recognize file name changes if they are just a case-sensitive change.</p> <p>For example:</p>"},{title:p,slug:g,excerpt:m,date:d,published:f,keywords:u,previewText:h,previewHtml:v}=s;var n=o(`<p>Git doesn’t recognize file name changes if they are just a case-sensitive
-change.</p> <p>For example:</p> <blockquote><p>utilitybar.js -> utilityBar.js</p></blockquote> <p>There are a couple of ways to solve this problem:</p> <ol><li><p>Use git mv <code>git mv -f utilitybar.js utilityBar.js</code></p></li> <li><p>Set a core config setting to false <code>git config core.ignorecase false</code></p></li></ol> <blockquote><p>This second option is a <strong>terrible</strong> idea as it’s better to just mv the file
-in Git directly.</p></blockquote>`,1);function b(e){var t=n();a(10),i(e,t)}export{b as default,s as metadata};

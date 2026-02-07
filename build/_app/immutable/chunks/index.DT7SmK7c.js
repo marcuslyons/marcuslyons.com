@@ -1,8 +1,0 @@
-import{a as t,t as r}from"./disclose-version.BDaRFh6M.js";import"./legacy.G1r-cTWw.js";import{m as p,i as o,k as i,l}from"./runtime.D22fzDCM.js";import{h as c}from"./html.C8Y-7Prl.js";const m={slug:"increase-webstorm-performance",title:"Increase WebStorm Performance",excerpt:"Garbage collection might go on strike.",date:"2021-03-30T00:00:00.000Z",published:!0,keywords:["webstorm","garbage collection","optimization"],previewText:`Apply the following settings in WebStorm config file.
-
-`,previewHtml:"<p>Apply the following settings in WebStorm config file.</p> <pre><code>-Xmx2048m -Xss256k -XX:+UseG1GC -XX:InitiatingHeapOccupancyPercent=65 -XX:G1HeapRegionSize=2 -XX:MaxGCPauseMillis=100 </code></pre>"},{slug:k,title:u,excerpt:v,date:h,published:w,keywords:x,previewText:G,previewHtml:y}=m;var g=r('<p>Apply the following settings in WebStorm config file.</p> <pre class="language-shell"><!></pre>',1);function H(s){var e=g(),a=p(o(e),2),n=i(a);c(n,()=>`<code class="language-shell"><span class="token parameter variable">-Xmx2048m</span>
-<span class="token parameter variable">-Xss256k</span>
-<span class="token parameter variable">-XX:+UseG1GC</span>
-<span class="token parameter variable">-XX:InitiatingHeapOccupancyPercent</span><span class="token operator">=</span><span class="token number">65</span>
-<span class="token parameter variable">-XX:G1HeapRegionSize</span><span class="token operator">=</span><span class="token number">2</span>
-<span class="token parameter variable">-XX:MaxGCPauseMillis</span><span class="token operator">=</span><span class="token number">100</span></code>`),l(a),t(s,e)}export{H as default,m as metadata};

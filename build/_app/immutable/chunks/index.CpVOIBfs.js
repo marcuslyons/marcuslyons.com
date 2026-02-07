@@ -1,5 +1,0 @@
-import{a as t,t as i}from"./disclose-version.BDaRFh6M.js";import"./legacy.G1r-cTWw.js";import{n as p}from"./runtime.D22fzDCM.js";const r={slug:"extract-public-key-from-pem-file",title:"Extract Public Key from .pem File",excerpt:"A reference.",date:"2021-04-05T00:00:00.000Z",published:!0,keywords:["ssh","public key","pem","file"],previewText:`📝 Note: if your permissions are too open you will need to fix them chmod 400
-PrivateFile.pem
-
-Linux: `,previewHtml:"<blockquote> <p>📝 Note: if your permissions are too open you will need to fix them chmod 400 PrivateFile.pem</p> </blockquote> <p>Linux: <code>ssh-keygen -f PrivateFile.pem -y &amp;gt; publicFile.pub</code></p>"},{slug:c,title:n,excerpt:u,date:d,published:f,keywords:y,previewText:x,previewHtml:b}=r;var l=i(`<blockquote><p>📝 Note: if your permissions are too open you will need to fix them chmod 400
-PrivateFile.pem</p></blockquote> <p>Linux: <code>ssh-keygen -f PrivateFile.pem -y &gt; publicFile.pub</code></p> <p>macOs: <code>ssh-keygen -f PrivateFile.pem -y | pbcopy</code></p>`,1);function h(e){var o=l();p(4),t(e,o)}export{h as default,r as metadata};
