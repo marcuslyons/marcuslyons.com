@@ -2,13 +2,12 @@
 	import SEO from '$lib/components/SEO.svelte';
 	import type { PageServerData } from './$types';
 
-	interface Config {
-		title: string;
-		description: string;
+	interface Props {
+		data: PageServerData;
 	}
-	export let data: PageServerData;
+	let { data }: Props = $props();
 
-	export let config: Config = {
+	const config = {
 		title: 'Marcus Lyons | Digital Garden 🪴',
 		description: 'The digital garden of Marcus Lyons: software engineer and maker.'
 	};

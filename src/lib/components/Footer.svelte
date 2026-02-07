@@ -1,5 +1,4 @@
 <script>
-	import github from '$lib/images/github.svg';
 	const date = new Date();
 	const year = date.getFullYear();
 </script>

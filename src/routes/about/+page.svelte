@@ -2,12 +2,7 @@
 	import SEO from '$lib/components/SEO.svelte';
 	import config from '$lib/site-config';
 
-	interface Config {
-		title: string;
-		description: string;
-	}
-
-	export let {
+	const {
 		about: { seo }
 	} = config;
 </script>

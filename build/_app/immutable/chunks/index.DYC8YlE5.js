@@ -1,0 +1,20 @@
+import{a,t as i}from"./disclose-version.BDaRFh6M.js";import"./legacy.G1r-cTWw.js";import{n as t}from"./runtime.D22fzDCM.js";const o={slug:"how-to-apply-the-feynman-technique-to-grow-as-a-software-developer",title:"How To Apply the Feynman Technique To Grow as a Software Developer",excerpt:"Being able to teach is a critical skill.",date:"2022-03-23T00:00:00.000Z",published:!0,keywords:["learning","teaching","feynman","growth"],previewText:`Richard Feynman was considered
+by many to be an incredible lecturer and a genius physicist. He had an uncanny
+ability to explain incredibly complex scientific subjects in an accessible
+way without relying on overly complex terminology.
+
+As...`,previewHtml:'<p><a href="https://en.wikipedia.org/wiki/Richard_Feynman" rel="nofollow">Richard Feynman</a> was considered by many to be an incredible lecturer and a genius physicist. He had an uncanny ability to <strong>explain incredibly complex scientific subjects in an accessible way</strong> without relying on overly complex terminology.</p> <p>As developers,...</p>'},{slug:p,title:h,excerpt:d,date:y,published:g,keywords:u,previewText:w,previewHtml:m}=o;var r=i(`<p><a href="https://en.wikipedia.org/wiki/Richard_Feynman" rel="nofollow" target="_blank">Richard Feynman</a> was considered
+by many to be an incredible lecturer and a genius physicist. He had an uncanny
+ability to <strong>explain incredibly complex scientific subjects in an accessible
+way</strong> without relying on overly complex terminology.</p> <p>As developers, we can leverage this mental model to accelerate our own growth
+and help others by teaching as we learn.</p> <h2 id="the-feynman-technique"><a aria-hidden="true" tabindex="-1" href="#the-feynman-technique"><span class="icon icon-link"></span></a>The Feynman Technique</h2> <ul><li><p>Identify a subject</p></li> <li><p>Teach it to a child</p></li> <li><p>Identify knowledge gaps</p></li> <li><p>Organize, simplify, tell a story</p></li></ul> <h3 id="choose-your-weapon"><a aria-hidden="true" tabindex="-1" href="#choose-your-weapon"><span class="icon icon-link"></span></a>Choose Your Weapon</h3> <p>You need to pick what you want to learn about.</p> <p>This could be anything, UI frameworks, CI testing, automation, etc.</p> <p>Once you have a topic, <strong>write down everything you know about it</strong>, researching
+what you need to teach it.</p> <h3 id="teach"><a aria-hidden="true" tabindex="-1" href="#teach"><span class="icon icon-link"></span></a>Teach</h3> <p>But where do I get a child?</p> <p>We don’t need to teach it to an actual child. It could be an imaginary child or
+even a friend. It should be <strong>someone who isn’t familiar with the topic</strong> at
+hand. For example, explaining to my realtor friend the concept of components in
+React.</p> <p>Breaking down a complex topic into something anyone can understand in plain
+language is a definite sign that you truly know something.</p> <p><strong>Jargon, and by extension business speak, are the shields of the ignorant.</strong></p> <h3 id="identify-gaps"><a aria-hidden="true" tabindex="-1" href="#identify-gaps"><span class="icon icon-link"></span></a>Identify Gaps</h3> <p>You’ll likely have discovered some areas where you either couldn’t break it down
+enough or had to use some complex language.</p> <p>You might not have been able to phrase things in the way you would have liked,
+and that’s ok!</p> <p><strong>Identify those gaps and do some more research.</strong></p> <h3 id="tell-a-story"><a aria-hidden="true" tabindex="-1" href="#tell-a-story"><span class="icon icon-link"></span></a>Tell a Story</h3> <p>We want to <strong>go back and trim where we can</strong>, simplifying our lesson to form a
+cohesive story.</p> <p>Stories can be powerful. An exciting one has a way of sticking with you, being
+hard to forget. This concept can also apply to learning.</p> <p>If we can frame our teaching as a story, we will <strong>reinforce the lesson for the
+student and ourselves.</strong></p>`,1);function f(e){var n=r();t(40),a(e,n)}export{f as default,o as metadata};
