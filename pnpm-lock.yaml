@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -35,8 +35,8 @@ dependencies:
 
 devDependencies:
   '@fontsource/fira-mono':
-    specifier: ^5.0.7
-    version: 5.0.7
+    specifier: ^5.2.7
+    version: 5.2.7
   '@neoconfetti/svelte':
     specifier: ^1.0.0
     version: 1.0.0
@@ -556,8 +556,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/fira-mono@5.0.7:
-    resolution: {integrity: sha512-K7h00jrdND+BRLr1GHjc6Da7xECLMOlAF24pZCy/pEyLNFmd5ODQj5teKcKp/w+V2zq8B0f9LxpPUNgASX8pGQ==}
+  /@fontsource/fira-mono@5.2.7:
+    resolution: {integrity: sha512-wYrAn6i3nH6luqQBZxtWUpl4UTUvs9AEbEeZxksPMwIqyjRRaxHTNW3c2VfM50gabS2IS7pT8lVWS2USB4ukYA==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.8:
