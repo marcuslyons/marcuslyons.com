@@ -1,6 +1,7 @@
 ---
 slug: how-a-weekly-review-can-help-identify-whats-working
-title: How a Weekly Review Can Help Identify What's Working, and Pivot When It's Not
+title:
+  How a Weekly Review Can Help Identify What's Working, and Pivot When It's Not
 excerpt: Better every day
 date: 2022-04-07
 published: true

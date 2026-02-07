@@ -20,7 +20,7 @@ keywords:
     convenience,
     article,
     blog post,
-    blog
+    blog,
   ]
 ---
 
