@@ -27,7 +27,7 @@
     "prettier": "^3.8.1",
     "prettier-plugin-svelte": "^3.4.1",
     "svelte": "^5.16.0",
-    "svelte-check": "^4.0.0",
+    "svelte-check": "^4.3.6",
     "svelte-eslint-parser": "^0.43.0",
     "tslib": "^2.4.1",
     "typescript": "^5.0.0",
