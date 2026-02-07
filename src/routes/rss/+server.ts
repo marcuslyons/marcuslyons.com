@@ -9,7 +9,7 @@ export async function GET() {
     'Cache-Control': 'max-age=0, s-maxage=3600',
     'Content-Type': 'application/xml',
   }
-console.log({posts});
+// console.log({posts});
   const generateXML = content => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>${name}</title>
@@ -22,7 +22,7 @@ console.log({posts});
             <link>${site}/post/${post.slug}/</link>
             <pubDate>${new Date(post.date)}</pubDate>
             <content:encoded>
-              ${post.previewText}
+              ${post.previewHtml}
               <div style="margin-top: 50px; font-style: italic;">
                 <strong>
                   <a href="${site}/posts/${post.slug}">

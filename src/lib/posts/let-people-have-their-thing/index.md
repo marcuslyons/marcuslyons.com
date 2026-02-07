@@ -7,7 +7,9 @@ published: true
 keywords: [jackass, ewok, porg, javascript]
 ---
 
-![Picture of a jackass](./images/jackass.jpg) Photo by
+![Picture of a jackass](./images/jackass.jpg)
+
+Photo by
 [Jordan Butler](https://unsplash.com/@jortaybut?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 on
 [Unsplash](https://unsplash.com/s/photos/jackass?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
