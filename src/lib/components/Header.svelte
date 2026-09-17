@@ -21,6 +21,13 @@
       >
         <a href="/uses">uses</a>
       </li>
+      <li
+        aria-current={page.url.pathname.startsWith("/resume")
+          ? "page"
+          : undefined}
+      >
+        <a href="/resume">resume</a>
+      </li>
     </ul>
   </nav>
   <div></div>
