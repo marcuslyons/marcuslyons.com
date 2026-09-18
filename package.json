@@ -14,7 +14,7 @@
   "devDependencies": {
     "@fontsource/fira-mono": "^5.0.7",
     "@neoconfetti/svelte": "^1.0.0",
-    "@playwright/test": "^1.37.1",
+    "@playwright/test": "^1.63.0",
     "@sveltejs/adapter-netlify": "^4.0.0",
     "@sveltejs/kit": "^2.14.0",
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
