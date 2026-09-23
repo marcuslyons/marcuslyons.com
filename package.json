@@ -39,7 +39,7 @@
     "rehype-autolink-headings": "^6.1.1",
     "rehype-external-links": "^2.1.0",
     "rehype-slug": "^5.1.0",
-    "remark-gemoji": "^7.0.1",
+    "remark-gemoji": "^8.0.0",
     "remark-preview": "^1.0.2",
     "remark-unwrap-images": "^3.0.1",
     "remixicon": "^3.5.0",
