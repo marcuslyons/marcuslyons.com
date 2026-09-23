@@ -7,7 +7,7 @@
     <div></div>
     <ul>
       {#if page.url.pathname !== "/"}
-        <li aria-current={page.url.pathname === "/" ? "page" : undefined}>
+        <li>
           <a href="/">Home</a>
         </li>
       {/if}
